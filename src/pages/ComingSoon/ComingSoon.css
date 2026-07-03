@@ -1,0 +1,218 @@
+.coming-page{
+    min-height:85vh;
+    background:#07110b;
+    position:relative;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.coming-container{
+    width:min(700px,90%);
+    text-align:center;
+    position:relative;
+    z-index:5;
+}
+
+.coming-grid{
+
+position:absolute;
+inset:0;
+
+opacity:.13;
+
+background-image:
+linear-gradient(rgba(201,164,75,.18) 1px,transparent 1px),
+linear-gradient(90deg,rgba(201,164,75,.18) 1px,transparent 1px);
+
+background-size:70px 70px;
+
+}
+
+.coming-ring{
+
+position:absolute;
+border-radius:50%;
+border:1px solid rgba(201,164,75,.18);
+
+}
+
+.ring-one{
+
+width:650px;
+height:650px;
+right:-200px;
+top:-150px;
+
+}
+
+.ring-two{
+
+width:420px;
+height:420px;
+right:-80px;
+top:40px;
+border-color:rgba(29,122,57,.5);
+
+}
+
+.coming-logo{
+
+width:130px;
+margin-bottom:30px;
+animation:floatLogo 3s ease-in-out infinite;
+
+}
+
+.coming-badge{
+
+display:inline-block;
+padding:8px 18px;
+border:1px solid rgba(201,164,75,.45);
+color:#e4c56f;
+letter-spacing:1px;
+font-size:11px;
+font-weight:700;
+margin-bottom:25px;
+
+}
+
+.coming-page h1{
+
+margin:0;
+font-size:64px;
+font-family:Georgia,serif;
+font-weight:500;
+line-height:1.1;
+color:white;
+
+}
+
+.coming-page h1 span{
+
+color:#e4c56f;
+
+}
+
+.coming-page p{
+
+margin:30px auto 0;
+max-width:620px;
+color:#c0cdc2;
+font-size:17px;
+line-height:1.8;
+
+}
+
+.coming-small{
+
+margin-top:18px;
+font-size:14px;
+color:#8ca596;
+
+}
+
+.coming-buttons{
+
+margin-top:45px;
+
+display:flex;
+justify-content:center;
+gap:18px;
+flex-wrap:wrap;
+
+}
+
+.coming-primary,
+.coming-secondary{
+
+min-width:190px;
+height:52px;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+text-decoration:none;
+
+font-weight:700;
+
+letter-spacing:.8px;
+
+transition:.3s;
+
+cursor:pointer;
+
+}
+
+.coming-primary{
+
+background:#c9a44b;
+color:#07110b;
+border:1px solid #c9a44b;
+
+}
+
+.coming-primary:hover{
+
+background:transparent;
+color:#e4c56f;
+
+}
+
+.coming-secondary{
+
+background:transparent;
+border:1px solid rgba(201,164,75,.5);
+color:#e4c56f;
+
+}
+
+.coming-secondary:hover{
+
+background:#c9a44b;
+color:#07110b;
+
+}
+
+@keyframes floatLogo{
+
+0%,100%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-8px);
+}
+
+}
+
+@media(max-width:768px){
+
+.coming-page h1{
+
+font-size:42px;
+
+}
+
+.coming-page p{
+
+font-size:15px;
+
+}
+
+.coming-buttons{
+
+flex-direction:column;
+
+}
+
+.coming-primary,
+.coming-secondary{
+
+width:100%;
+
+}
+
+}

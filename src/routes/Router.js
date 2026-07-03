@@ -7,11 +7,10 @@ import Representation from "../pages/Representation/Representation";
 import Manufacturers from "../pages/Manufacturers/Manufacturers";
 import Products from "../pages/Products/Products";
 import Downloads from "../pages/Downloads/Downloads";
-import News from "../pages/News/News";
-import Contact from "../pages/Contact/Contact";
 import Compliance from "../pages/Compliance/Compliance";
 import NotFound from "../pages/NotFound/NotFound";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
+import ComingSoon from "../pages/ComingSoon/ComingSoon";
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -25,8 +24,12 @@ function AnimatedRoutes() {
         <Route path="/manufacturers" element={<Manufacturers />} />
         <Route path="/products" element={<Products />} />
         <Route path="/downloads" element={<Downloads />} />
-        <Route path="/news" element={<News />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<ComingSoon />} />
+        <Route path="/news" element={<ComingSoon />} />
+        <Route path="/products/electronics" element={<ComingSoon />} />
+        <Route path="/products/naval" element={<ComingSoon />} />
+        <Route path="/products/aerospace" element={<ComingSoon />} />
+        <Route path="/products/land-systems" element={<ComingSoon />} />
         <Route path="/compliance" element={<Compliance />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
