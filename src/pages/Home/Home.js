@@ -136,8 +136,7 @@ function Home() {
         <section className="depo-section">
           <div className="home-container depo-grid">
             <div className="depo-mark">
-              <span>DEPO</span>
-              <small>Pakistan</small>
+              <img src = 'https://depo.gov.pk/images/event-organizer1.png' style={{ width: '250px', height: '250px' }} alt="DEPO Logo" />
             </div>
 
             <div className="depo-content">
