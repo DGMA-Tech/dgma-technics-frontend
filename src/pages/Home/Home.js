@@ -7,19 +7,19 @@ function Home() {
     {
       number: "01",
       title: "Land Systems",
-      text: "Engineering, mobility, protection and mission-support solutions for land-based operations.",
+      text: " Armed Forces related Engineering, mobility, protection and mission-support solutions for land-based operations.",
       link: "/products/land-systems",
     },
     {
       number: "02",
       title: "Aerospace & Aviation",
-      text: "Aviation engineering, aerospace manufacturing, maintenance and support capabilities.",
+      text: "Air Forces related Aviation engineering, aerospace manufacturing, maintenance and support capabilities.",
       link: "/products/aerospace",
     },
     {
       number: "03",
       title: "Naval & Maritime",
-      text: "Shipbuilding, maritime engineering, naval platforms and associated support solutions.",
+      text: "Naval Forces related Shipbuilding, maritime engineering, naval platforms and associated support solutions.",
       link: "/products/naval",
     },
     {
@@ -33,10 +33,10 @@ function Home() {
   const manufacturers = [
     "Pakistan Ordnance Factories",
     "Heavy Industries Taxila",
-    "National Radio & Telecommunication Corporation",
     "Pakistan Aeronautical Complex",
     "Karachi Shipyard & Engineering Works",
     "Global Industrial & Defence Solutions",
+    "National Radio & Telecommunication Corporation",
   ];
 
   return (
@@ -61,8 +61,9 @@ function Home() {
 
             <p className="hero-description">
               DGMA Technics Limited provides international representation,
-              coordination and business-development support across defence,
-              aerospace, engineering and technology sectors.
+              coordination, and business development support across all segments
+              of the armed forces, including land, air, and naval defence, as
+              well as the engineering and technology sectors.
             </p>
 
             <div className="hero-buttons">
@@ -113,7 +114,7 @@ function Home() {
             <div className="intro-content">
               <p>
                 DGMA Technics Limited supports international engagement with
-                Pakistan’s established defence, aerospace, engineering and
+                Globally established defence, aerospace, engineering and
                 technology manufacturing ecosystem.
               </p>
 
@@ -141,18 +142,22 @@ function Home() {
 
             <div className="depo-content">
               <p className="section-label">Official Representation Focus</p>
-              <h2>Globally Representing DEPO</h2>
+              <h2>
+                Global Representative of the Defence Export Promotion
+                Organisation (DEPO), an Organisation of the Ministry of Defence,
+                Pakistan
+              </h2>
 
               <p>
                 DGMA Technics Limited is positioned to support international
-                engagement with the Defence Export Promotion Organisation of
-                Pakistan and its wider manufacturing network.
+                engagement with the Defence Export Promotion Organisation (DEPO)
+                of Pakistan and its wider manufacturing network.
               </p>
 
               <p>
-                Through structured coordination, we help connect suitable
-                international stakeholders with relevant industrial,
-                engineering and technology capabilities.
+                Through structured coordination, we help to connect suitable
+                international stakeholders with relevant industrial, engineering
+                and technology capabilities.
               </p>
 
               <Link to="/representation" className="gold-outline-button">
@@ -168,7 +173,9 @@ function Home() {
             <div className="section-top-row">
               <div>
                 <p className="section-label">Core Capability Sectors</p>
-                <h2>Built for complex industries and international partnerships.</h2>
+                <h2>
+                  Built for complex industries and international partnerships.
+                </h2>
               </div>
 
               <Link to="/products" className="text-link desktop-link">
@@ -204,8 +211,8 @@ function Home() {
               <p>
                 The DEPO catalogue highlights leading public-sector
                 organisations across land, sea, air, communications and
-                industrial manufacturing. DGMA helps direct qualified
-                enquiries to the appropriate capability area.
+                industrial manufacturing. DGMA helps direct qualified enquiries
+                to the appropriate capability area.
               </p>
 
               <Link to="/manufacturers" className="primary-button">
