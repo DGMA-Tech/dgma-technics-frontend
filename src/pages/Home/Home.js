@@ -51,7 +51,7 @@ function Home() {
           <div className="home-container hero-content">
             <div className="hero-eyebrow">
               <span></span>
-              International Representation & Strategic Coordination
+              Global Representation & Strategic Coordination
             </div>
 
             <h1>
@@ -60,7 +60,7 @@ function Home() {
             </h1>
 
             <p className="hero-description">
-              DGMA Technics Limited provides international representation,
+              DGMA Technics Limited provides global representation,
               coordination, and business development support across all segments
               of the armed forces, including land, air, and naval defence, as
               well as the engineering and technology sectors.
@@ -106,22 +106,22 @@ function Home() {
             <div className="section-heading">
               <p className="section-label">Who We Are</p>
               <h2>
-                A trusted bridge between industry capability and international
+                A trusted bridge between industry capability and global
                 opportunity.
               </h2>
             </div>
 
             <div className="intro-content">
               <p>
-                DGMA Technics Limited supports international engagement with
-                Globally established defence, aerospace, engineering and
+                DGMA Technics Limited supports global engagement with
+                 established defence, aerospace, engineering and
                 technology manufacturing ecosystem.
               </p>
 
               <p>
                 Our role is to facilitate professional communication,
-                manufacturer coordination, capability introductions and
-                structured business enquiries for qualified international
+                manufacturer's coordination, capability introductions and
+                structured business enquiries for qualified global
                 partners.
               </p>
 
@@ -148,14 +148,14 @@ function Home() {
               </h2>
 
               <p>
-                DGMA Technics Limited is positioned to support international
+                DGMA Technics Limited is positioned to support global
                 engagement with the Defence Export Promotion Organisation (DEPO)
                 of Pakistan and its wider manufacturing network.
               </p>
 
               <p>
                 Through structured coordination, we help to connect suitable
-                international stakeholders with relevant industrial, engineering
+                global stakeholders with relevant industrial, engineering
                 and technology capabilities.
               </p>
 
@@ -173,7 +173,7 @@ function Home() {
               <div>
                 <p className="section-label">Core Capability Sectors</p>
                 <h2>
-                  Built for complex industries and international partnerships.
+                  Built for complex industries and global partnerships.
                 </h2>
               </div>
 
@@ -238,7 +238,7 @@ function Home() {
 
             <div>
               <p className="section-label">Responsible Engagement</p>
-              <h2>Compliance-led international business.</h2>
+              <h2>Compliance-led global business.</h2>
               <p>
                 All enquiries are managed subject to applicable export-control,
                 compliance, due-diligence and end-user verification

@@ -91,7 +91,7 @@ function Products() {
             </h1>
 
             <p>
-              DGMA Technics Limited supports international engagement across
+              DGMA Technics Limited supports global engagement across
               land systems, aerospace, maritime engineering, electronics,
               communications and wider industrial capability areas.
             </p>

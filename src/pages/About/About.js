@@ -52,14 +52,14 @@ function About() {
             </p>
 
             <h1>
-              International representation,
+              Global representation,
               <span> built on professional coordination.</span>
             </h1>
 
             <p className="about-hero-text">
-              DGMA Technics Limited supports international engagement across
-              defence, aerospace, engineering and technology sectors through
-              structured representation, coordination and business-development support.
+              DGMA Technics Limited supports global engagement across
+              engineering and technology sectors through structured
+              representation, coordination and business-development support.
             </p>
           </div>
         </section>
@@ -70,15 +70,17 @@ function About() {
             <div className="about-heading-block">
               <p className="about-section-label">Our Role</p>
               <h2>
-                Connecting international opportunity with established industrial capability.
+                Connecting global opportunity with established industrial
+                capability.
               </h2>
             </div>
 
             <div className="about-intro-content">
               <p>
                 DGMA Technics Limited acts as a professional point of contact
-                for international organisations seeking to understand and engage
-                with relevant manufacturing, engineering and technology capabilities.
+                for global organisations seeking to understand and engage
+                with relevant manufacturing, engineering and technology
+                capabilities.
               </p>
 
               <p>
@@ -105,12 +107,15 @@ function About() {
 
             <div className="representation-content">
               <p className="about-section-label">Representation Focus</p>
-              <h2>Globally representing DEPO-related capability.</h2>
+              <h2>
+                Globally representing Defence Export Promotion Organisation DEPO
+                capability.
+              </h2>
 
               <p>
-                DGMA Technics Limited is positioned to support international
-                engagement connected with the Defence Export Promotion Organisation
-                of Pakistan and its wider industrial ecosystem.
+                DGMA Technics Limited is positioned to support global engagement
+                connected with the Defence Export Promotion Organisation of
+                Pakistan and its wider industrial ecosystem.
               </p>
 
               <p>
@@ -132,7 +137,9 @@ function About() {
             <div className="about-values-heading">
               <div>
                 <p className="about-section-label">How We Work</p>
-                <h2>Built around clarity, credibility and responsible engagement.</h2>
+                <h2>
+                  Built around clarity, credibility and responsible engagement.
+                </h2>
               </div>
             </div>
 
@@ -158,7 +165,7 @@ function About() {
 
               <p>
                 DGMA’s focus spans a broad industrial landscape, helping
-                international partners explore relevant capability areas through
+                global partners explore relevant capability areas through
                 a structured and informed approach.
               </p>
 
@@ -206,7 +213,7 @@ function About() {
 
           <div className="about-container about-cta-content">
             <p className="about-section-label">Start a Conversation</p>
-            <h2>Discuss your international requirement with DGMA.</h2>
+            <h2>Discuss your global requirement with DGMA.</h2>
 
             <p>
               Submit a secure enquiry and our team will review your request

@@ -123,9 +123,9 @@ function Manufacturers() {
             </h1>
 
             <p>
-              Explore a diverse network of public-sector organisations across
-              defence manufacturing, aerospace, maritime engineering,
-              communications, technology and industrial capability.
+              Explore a diverse network of public sector organisations across
+              defence-related manufacturing, aerospace, maritime engineering,
+              communications, technology and industrial sectors.
             </p>
           </div>
         </section>
@@ -136,14 +136,14 @@ function Manufacturers() {
             <div>
               <p className="manufacturers-label">Our Network</p>
               <h2>
-                A broad ecosystem of engineering, manufacturing and technology capability.
+                A broad ecosystem of engineering, manufacturing and technological capability.
               </h2>
             </div>
 
             <div className="manufacturers-intro-text">
               <p>
                 The DEPO ecosystem brings together specialist organisations
-                across multiple sectors. DGMA supports qualified international
+                across multiple sectors. DGMA supports qualified global
                 partners by helping identify the most relevant capability area.
               </p>
 

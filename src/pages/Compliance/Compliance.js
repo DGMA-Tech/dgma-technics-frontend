@@ -67,7 +67,7 @@ function Compliance() {
 
             <p className="compliance-eyebrow">
               <span></span>
-              Responsible International Engagement
+              Responsible Global Engagement
             </p>
 
             <h1>
@@ -76,7 +76,7 @@ function Compliance() {
             </h1>
 
             <p>
-              DGMA Technics Limited supports professional international
+              DGMA Technics Limited supports professional global
               engagement through a structured approach that recognises
               compliance, due diligence, export-control and end-user
               verification requirements.
@@ -100,7 +100,7 @@ function Compliance() {
 
             <div className="compliance-intro-text">
               <p>
-                DGMA Technics Limited understands that international business
+                DGMA Technics Limited understands that global business
                 discussions in defence, aerospace, engineering and technology
                 sectors may involve important legal, commercial and regulatory
                 considerations.

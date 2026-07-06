@@ -61,7 +61,7 @@ function Representation() {
             </h1>
 
             <p>
-              Supporting professional international engagement with Pakistan’s
+              Supporting professional global engagement with Pakistan’s
               defence, aerospace, engineering and technology manufacturing
               ecosystem.
             </p>
@@ -76,12 +76,12 @@ function Representation() {
           <div className="representation-container representation-intro-grid">
             <div>
               <p className="representation-label">The Representation Role</p>
-              <h2>Creating a professional route for international engagement.</h2>
+              <h2>Creating a professional route for global engagement.</h2>
             </div>
 
             <div className="representation-intro-text">
               <p>
-                DGMA Technics Limited supports international stakeholders who
+                DGMA Technics Limited supports global stakeholders who
                 wish to explore relevant capability areas connected with DEPO
                 and Pakistan’s wider public-sector industrial ecosystem.
               </p>
@@ -108,12 +108,12 @@ function Representation() {
 
               <p>
                 DEPO provides a framework for promoting and facilitating
-                international engagement across Pakistan’s defence and related
+                global engagement across Pakistan’s defence and related
                 industrial sectors.
               </p>
 
               <p>
-                DGMA’s representation focus is to help international partners
+                DGMA’s representation focus is to help global partners
                 understand the available ecosystem, identify relevant capability
                 areas and begin conversations through the appropriate channel.
               </p>
