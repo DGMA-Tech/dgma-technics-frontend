@@ -1,7 +1,7 @@
 import Layout from "../../../components/Layout/Layout";
 import { Link } from "react-router-dom";
 import landProducts from "./landProducts";
-import "./LandSystems.css";
+import "../Systems.css";
 
 function LandSystems() {
   return (

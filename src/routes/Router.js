@@ -13,6 +13,7 @@ import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 import ComingSoon from "../pages/ComingSoon/ComingSoon";
 import Contact from "../pages/Contact/Contact";
 import LandSystems from "../pages/Products/Land-system/LandSystems";
+import NavalSystems from "../pages/Products/Naval-system/NavalSystems";
 function AnimatedRoutes() {
   const location = useLocation();
 
@@ -27,7 +28,7 @@ function AnimatedRoutes() {
         <Route path="/downloads" element={<Downloads />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/products/electronics" element={<ComingSoon />} />
-        <Route path="/products/naval" element={<ComingSoon />} />
+        <Route path="/products/naval" element={<NavalSystems />} />
         <Route path="/products/aerospace" element={<ComingSoon />} />
         <Route path="/products/land-systems" element={<LandSystems />} />
         <Route path="/compliance" element={<Compliance />} />
