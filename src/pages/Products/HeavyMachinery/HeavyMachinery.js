@@ -142,30 +142,7 @@ function HeavyMachinery() {
           </div>
         </section>
 
-        {/* ================= CONTACT ================= */}
 
-        <section className="land-contact">
-          <div className="container">
-            <div className="land-contact-box">
-              <span>CONTACT DGMA</span>
-
-              <h2>
-                Looking for more information about our heavy machinery and
-                support equipment?
-              </h2>
-
-              <p>
-                Contact our team for detailed capability information, technical
-                documentation and business enquiries regarding heavy machinery and
-                support equipment.
-              </p>
-
-              <Link to="/contact" className="land-btn">
-                Contact Us →
-              </Link>
-            </div>
-          </div>
-        </section>
       </main>
     </Layout>
   );
