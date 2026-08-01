@@ -16,6 +16,7 @@ import LandSystems from "../pages/Products/Land-system/LandSystems";
 import NavalSystems from "../pages/Products/Naval-system/NavalSystems";
 import AerospaceSystems from "../pages/Products/Aerospace-system/AerospaceSystem";
 import ElectronicsSystems from "../pages/Products/Electronics-system/ElectronicsSystem";
+import HeavyMachinery from "../pages/Products/HeavyMachinery/HeavyMachinery";
 function AnimatedRoutes() {
   const location = useLocation();
 
@@ -33,6 +34,7 @@ function AnimatedRoutes() {
         <Route path="/products/naval" element={<NavalSystems />} />
         <Route path="/products/aerospace" element={<AerospaceSystems />} />
         <Route path="/products/land-systems" element={<LandSystems />} />
+        <Route path="/products/heavy-machinery" element={<HeavyMachinery />} />
         <Route path="/compliance" element={<Compliance />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

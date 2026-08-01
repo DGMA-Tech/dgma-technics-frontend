@@ -1,9 +1,9 @@
 import Layout from "../../../components/Layout/Layout";
 import { Link } from "react-router-dom";
 import "../Systems.css";
-import electronicsProducts from "./electronicsProducts";
+import heavyMachineryProducts from "./heavyMachineryProducts";
 
-function ElectronicsSystems() {
+function HeavyMachinery() {
   return (
     <Layout>
       <main className="land-page">
@@ -21,21 +21,20 @@ function ElectronicsSystems() {
               <span>/</span>
               <Link to="/products">Capabilities</Link>
               <span>/</span>
-              ELECTRONICS & COMMUNICATION CAPABILITY
+              HEAVY MACHINERY CAPABILITY
             </p>
 
-            <span className="land-tag">ELECTRONICS & COMMUNICATION CAPABILITY</span>
+            <span className="land-tag">HEAVY MACHINERY CAPABILITY</span>
 
             <h1>
-              ELECTRONICS &<span> COMMUNICATION SYSTEMS</span>
+              HEAVY MACHINERY &<span> SUPPORT EQUIPMENT</span>
             </h1>
 
             <p>
-              DGMA Technics Limited promotes advanced electronics and communication
-              capabilities through internationally recognised manufacturers,
-              supporting defence organisations, government agencies and communication
-              partners with innovative technologies, engineering excellence and
-              mission-ready solutions.
+              DGMA Technics Limited promotes a comprehensive range of heavy
+              machinery and industrial equipment supporting defence,
+              construction, infrastructure and engineering projects through
+              internationally recognised manufacturers.
             </p>
 
             <a href="#portfolio" className="land-btn">
@@ -49,28 +48,27 @@ function ElectronicsSystems() {
         <section className="land-about">
           <div className="container land-about-grid">
             <div>
-              <span className="section-title">ELECTRONICS & COMMUNICATION CAPABILITY</span>
+              <span className="section-title">HEAVY MACHINERY</span>
 
               <h2>
-                Advanced electronics and communication technologies supporting modern defence and
-                security operations.
+                Advanced heavy machinery for construction, engineering and
+                industrial operations.
               </h2>
             </div>
 
             <div>
               <p>
-                Our electronics and communication capability portfolio includes military communication systems,
-                electronic warfare solutions, radar and surveillance technologies, command and control systems,
-                electro-optical sensors and cyber security solutions.
-                maintenance solutions and ground support equipment.
-              </p>
+  Our heavy machinery portfolio includes construction equipment,
+  earth moving machinery, lifting solutions, material handling
+  systems, mining equipment and engineering support machinery.
+</p>
 
               <p>
-                Information presented on this website provides a high-level
-                overview of our electronics and communication capabilities. Detailed specifications,
-                documentation and commercial information are available through
-                our professional enquiry process.
-              </p>
+  Information presented on this website provides a high-level
+  overview of our capabilities. Detailed specifications,
+  technical documentation and commercial information are
+  available through our professional enquiry process.
+</p>
             </div>
           </div>
         </section>
@@ -80,18 +78,20 @@ function ElectronicsSystems() {
         <section className="land-products" id="portfolio">
           <div className="container">
             <div className="section-heading">
-              <span className="section-title">ELECTRONICS & COMMUNICATION PORTFOLIO</span>
+              <span className="section-title">
+                HEAVY MACHINERY PORTFOLIO
+              </span>
 
-              <h2>Electronics and communication capability sectors.</h2>
+              <h2>Heavy Machinery and Support Equipment</h2>
 
               <p>
-                Explore our principal electronics and communication capability areas
-                supporting defence and security operations.
+                Explore our principal heavy machinery and support equipment
+                areas supporting construction, engineering and industrial operations.
               </p>
             </div>
 
             <div className="land-product-grid">
-              {electronicsProducts.map((item) => (
+              {heavyMachineryProducts.map((item) => (
                 <article className="land-card" key={item.id}>
                   <div className="land-card-image">
                     <img src={item.image} alt={item.title} />
@@ -122,7 +122,6 @@ function ElectronicsSystems() {
           </div>
         </section>
 
-
         {/* ================= NOTICE ================= */}
 
         <section className="land-notice">
@@ -151,12 +150,14 @@ function ElectronicsSystems() {
               <span>CONTACT DGMA</span>
 
               <h2>
-                Looking for more information about our electronics and communication capabilities?
+                Looking for more information about our heavy machinery and
+                support equipment?
               </h2>
 
               <p>
                 Contact our team for detailed capability information, technical
-                documentation and business enquiries regarding electronics and communication systems.
+                documentation and business enquiries regarding heavy machinery and
+                support equipment.
               </p>
 
               <Link to="/contact" className="land-btn">
@@ -170,4 +171,4 @@ function ElectronicsSystems() {
   );
 }
 
-export default ElectronicsSystems;
+export default HeavyMachinery;

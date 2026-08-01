@@ -85,6 +85,11 @@ function Header() {
                 <NavLink to="/products/electronics" onClick={closeMenu}>
                   Electronics & Communications
                 </NavLink>
+
+                <NavLink to="/products/heavy-machinery" onClick={closeMenu}>
+                  Heavy Machinery
+                </NavLink>
+
               </div>
             </div>
 
@@ -92,9 +97,7 @@ function Header() {
               Compliance
             </NavLink>
 
-            <NavLink to="/news" onClick={closeMenu}>
-              News
-            </NavLink>
+            
           </nav>
 
           {/* Right side actions */}
