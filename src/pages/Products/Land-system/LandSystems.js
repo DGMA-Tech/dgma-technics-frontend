@@ -36,6 +36,10 @@ function LandSystems() {
               supporting military, government and authorised organisations with
               advanced defence technologies and engineering solutions.
             </p>
+
+            <a href="#portfolio" className="land-btn">
+              Explore Portfolio →
+            </a>
           </div>
         </section>
 
