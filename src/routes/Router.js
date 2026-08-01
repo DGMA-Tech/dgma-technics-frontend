@@ -15,6 +15,7 @@ import Contact from "../pages/Contact/Contact";
 import LandSystems from "../pages/Products/Land-system/LandSystems";
 import NavalSystems from "../pages/Products/Naval-system/NavalSystems";
 import AerospaceSystems from "../pages/Products/Aerospace-system/AerospaceSystem";
+import ElectronicsSystems from "../pages/Products/Electronics-system/ElectronicsSystem";
 function AnimatedRoutes() {
   const location = useLocation();
 
@@ -28,7 +29,7 @@ function AnimatedRoutes() {
         <Route path="/products" element={<Products />} />
         <Route path="/downloads" element={<Downloads />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/products/electronics" element={<ComingSoon />} />
+        <Route path="/products/electronics" element={<ElectronicsSystems />} />
         <Route path="/products/naval" element={<NavalSystems />} />
         <Route path="/products/aerospace" element={<AerospaceSystems />} />
         <Route path="/products/land-systems" element={<LandSystems />} />
