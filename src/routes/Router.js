@@ -26,7 +26,6 @@ function AnimatedRoutes() {
         <Route path="/products" element={<Products />} />
         <Route path="/downloads" element={<Downloads />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/news" element={<ComingSoon />} />
         <Route path="/products/electronics" element={<ComingSoon />} />
         <Route path="/products/naval" element={<ComingSoon />} />
         <Route path="/products/aerospace" element={<ComingSoon />} />
