@@ -11,7 +11,8 @@ import Compliance from "../pages/Compliance/Compliance";
 import NotFound from "../pages/NotFound/NotFound";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 import ComingSoon from "../pages/ComingSoon/ComingSoon";
-
+import Contact from "../pages/Contact/Contact";
+import LandSystems from "../pages/Products/Land-system/LandSystems";
 function AnimatedRoutes() {
   const location = useLocation();
 
@@ -24,12 +25,12 @@ function AnimatedRoutes() {
         <Route path="/manufacturers" element={<Manufacturers />} />
         <Route path="/products" element={<Products />} />
         <Route path="/downloads" element={<Downloads />} />
-        <Route path="/contact" element={<ComingSoon />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/news" element={<ComingSoon />} />
         <Route path="/products/electronics" element={<ComingSoon />} />
         <Route path="/products/naval" element={<ComingSoon />} />
         <Route path="/products/aerospace" element={<ComingSoon />} />
-        <Route path="/products/land-systems" element={<ComingSoon />} />
+        <Route path="/products/land-systems" element={<LandSystems />} />
         <Route path="/compliance" element={<Compliance />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

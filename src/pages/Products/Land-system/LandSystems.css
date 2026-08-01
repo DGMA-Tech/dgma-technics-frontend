@@ -1,0 +1,703 @@
+/* ===========================
+   LAND SYSTEMS
+=========================== */
+
+.land-page{
+    background:#07110b;
+    color:#fff;
+}
+
+.container{
+    width:min(1280px,90%);
+    margin:auto;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.land-hero{
+    position:relative;
+    min-height:85vh;
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    background:
+        radial-gradient(circle at 80% 40%,rgba(20,120,60,.22),transparent 28%),
+        linear-gradient(135deg,#050905,#07110b 55%,#0b2114);
+}
+
+.land-grid{
+    position:absolute;
+    inset:0;
+    opacity:.12;
+
+    background-image:
+    linear-gradient(rgba(214,178,94,.18) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(214,178,94,.18) 1px,transparent 1px);
+
+    background-size:70px 70px;
+}
+
+.land-ring{
+    position:absolute;
+    border-radius:50%;
+    border:1px solid rgba(214,178,94,.25);
+}
+
+.land-ring-one{
+    width:650px;
+    height:650px;
+    right:-220px;
+    top:-120px;
+}
+
+.land-ring-two{
+    width:430px;
+    height:430px;
+    right:-80px;
+    top:90px;
+    border-color:rgba(20,120,60,.45);
+}
+
+.land-hero-content{
+    position:relative;
+    z-index:10;
+}
+
+.land-breadcrumb{
+    display:flex;
+    gap:10px;
+    margin-bottom:40px;
+    font-size:12px;
+}
+
+.land-breadcrumb a{
+    color:#d6b25e;
+    text-decoration:none;
+}
+
+.land-breadcrumb span{
+    color:#6f8b74;
+}
+
+.land-tag{
+    display:inline-block;
+    color:#d6b25e;
+    font-size:12px;
+    letter-spacing:2px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.land-hero h1{
+    font-size:72px;
+    line-height:1.1;
+    margin-bottom:25px;
+    font-family:Georgia,serif;
+    font-weight:500;
+}
+
+.land-hero h1 span{
+    color:#d6b25e;
+}
+
+.land-hero p{
+    max-width:720px;
+    color:#cad5cd;
+    line-height:1.9;
+    font-size:18px;
+}
+
+.land-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:35px;
+    height:54px;
+    padding:0 28px;
+    background:#d6b25e;
+    color:#07110b;
+    text-decoration:none;
+    font-weight:700;
+    border:1px solid #d6b25e;
+    transition:.35s;
+}
+
+.land-btn:hover{
+    background:transparent;
+    color:#d6b25e;
+}
+
+/* ===========================
+ABOUT
+=========================== */
+
+.land-about{
+    background:#f5f6f3;
+    padding:110px 0;
+}
+
+.land-about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:80px;
+    align-items:center;
+}
+
+.section-title{
+    display:inline-block;
+    color:#0d5b26;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+
+.land-about h2{
+    color:#102217;
+    font-size:48px;
+    line-height:1.2;
+    font-family:Georgia,serif;
+    font-weight:500;
+}
+
+.land-about p{
+    color:#4d5d52;
+    line-height:1.9;
+    font-size:17px;
+    margin-bottom:22px;
+}
+
+/* ===========================
+SECTION HEADING
+=========================== */
+
+.section-heading{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.section-heading .section-title{
+    color:#d6b25e;
+}
+
+.section-heading h2{
+    font-size:50px;
+    margin-top:15px;
+    font-family:Georgia,serif;
+    font-weight:500;
+}
+
+.section-heading p{
+    max-width:650px;
+    margin:20px auto 0;
+    color:#c7d1c8;
+    line-height:1.8;
+}
+
+/* ===========================
+PRODUCTS
+=========================== */
+
+.land-products{
+    padding:120px 0;
+}
+
+.land-product-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(360px,1fr));
+    gap:35px;
+}
+
+.land-card{
+    background:#0d2115;
+    border:1px solid rgba(214,178,94,.18);
+    overflow:hidden;
+    transition:.35s;
+}
+
+.land-card:hover{
+    transform:translateY(-10px);
+    border-color:#d6b25e;
+}
+
+.land-card-image{
+    position:relative;
+    height:260px;
+    overflow:hidden;
+}
+
+.land-card-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.land-card:hover img{
+    transform:scale(1.08);
+}
+
+.land-overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(to top,rgba(0,0,0,.75),transparent);
+}
+
+.land-card-image span{
+    position:absolute;
+    top:20px;
+    left:20px;
+    width:46px;
+    height:46px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#d6b25e;
+    color:#07110b;
+    font-weight:700;
+}
+
+.land-card-content{
+    padding:30px;
+}
+
+.land-card-content h3{
+    color:#d6b25e;
+    font-size:28px;
+    margin-bottom:18px;
+    font-family:Georgia,serif;
+    font-weight:500;
+}
+
+.land-card-content p{
+    color:#c8d2c9;
+    line-height:1.8;
+    margin-bottom:22px;
+}
+
+.land-card-content ul{
+    padding-left:18px;
+    margin:0;
+}
+
+.land-card-content li{
+    color:#fff;
+    margin-bottom:10px;
+    line-height:1.7;
+}
+
+.land-card-content li::marker{
+    color:#d6b25e;
+}
+/* ==========================================
+   WHY DGMA
+========================================== */
+
+.land-why{
+    padding:110px 0;
+    background:#f5f6f3;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    margin-top:60px;
+}
+
+.why-card{
+    background:#ffffff;
+    padding:40px 35px;
+    border:1px solid rgba(16,34,23,.08);
+    transition:.35s;
+    border-radius:8px;
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+    border-color:#d6b25e;
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+}
+
+.why-card h3{
+    color:#102217;
+    font-size:26px;
+    margin-bottom:20px;
+    font-family:Georgia,serif;
+    font-weight:500;
+}
+
+.why-card p{
+    color:#55655a;
+    line-height:1.9;
+    font-size:16px;
+}
+
+/* ==========================================
+   NOTICE
+========================================== */
+
+.land-notice{
+    background:#07110b;
+    padding:100px 0;
+}
+
+.notice-box{
+    max-width:1000px;
+    margin:auto;
+    text-align:center;
+    padding:60px;
+    border:1px solid rgba(214,178,94,.25);
+    background:linear-gradient(
+        145deg,
+        rgba(214,178,94,.06),
+        rgba(255,255,255,.02)
+    );
+}
+
+.notice-box span{
+    display:inline-block;
+    color:#d6b25e;
+    font-size:12px;
+    letter-spacing:2px;
+    font-weight:700;
+    margin-bottom:20px;
+    text-transform:uppercase;
+}
+
+.notice-box h2{
+    color:#fff;
+    font-size:42px;
+    line-height:1.3;
+    margin-bottom:25px;
+    font-family:Georgia,serif;
+    font-weight:500;
+}
+
+.notice-box p{
+    max-width:760px;
+    margin:auto;
+    color:#c8d2c9;
+    line-height:1.9;
+    font-size:17px;
+}
+
+/* ==========================================
+   CONTACT CTA
+========================================== */
+
+.land-contact{
+    position:relative;
+    overflow:hidden;
+    padding:130px 0;
+    background:
+        radial-gradient(circle at 80% 40%,rgba(24,110,55,.25),transparent 28%),
+        linear-gradient(135deg,#08120c,#102217);
+}
+
+.land-contact::before{
+
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    opacity:.12;
+
+    background-image:
+    linear-gradient(rgba(214,178,94,.18) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(214,178,94,.18) 1px,transparent 1px);
+
+    background-size:80px 80px;
+
+}
+
+.land-contact-box{
+
+    position:relative;
+    z-index:2;
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.land-contact-box span{
+
+    display:inline-block;
+
+    color:#d6b25e;
+
+    font-size:13px;
+
+    letter-spacing:2px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+    text-transform:uppercase;
+
+}
+
+.land-contact-box h2{
+
+    color:#fff;
+
+    font-size:56px;
+
+    line-height:1.2;
+
+    font-family:Georgia,serif;
+
+    font-weight:500;
+
+    margin-bottom:25px;
+
+}
+
+.land-contact-box p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#cad4cb;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+}
+
+.land-contact-box .land-btn{
+
+    margin-top:40px;
+
+}
+
+/* ==========================================
+   SCROLL ANIMATION
+========================================== */
+
+.land-card,
+.why-card,
+.notice-box{
+
+    transition:
+        transform .35s ease,
+        border-color .35s ease,
+        box-shadow .35s ease;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:1100px){
+
+.land-product-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.why-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:900px){
+
+.land-hero{
+
+min-height:75vh;
+
+}
+
+.land-hero h1{
+
+font-size:52px;
+
+}
+
+.land-about-grid{
+
+grid-template-columns:1fr;
+
+gap:40px;
+
+}
+
+.land-about{
+
+padding:80px 0;
+
+}
+
+.section-heading h2{
+
+font-size:40px;
+
+}
+
+.notice-box{
+
+padding:40px 30px;
+
+}
+
+.notice-box h2{
+
+font-size:34px;
+
+}
+
+.land-contact-box h2{
+
+font-size:42px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.land-product-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.land-card-image{
+
+height:220px;
+
+}
+
+.land-contact{
+
+padding:90px 0;
+
+}
+
+.land-contact-box h2{
+
+font-size:34px;
+
+}
+
+.land-contact-box p{
+
+font-size:16px;
+
+}
+
+.notice-box p{
+
+font-size:16px;
+
+}
+
+}
+
+@media(max-width:500px){
+
+.land-breadcrumb{
+
+font-size:11px;
+flex-wrap:wrap;
+
+}
+
+.land-hero h1{
+
+font-size:40px;
+
+}
+
+.land-hero p{
+
+font-size:16px;
+
+}
+
+.section-heading h2{
+
+font-size:32px;
+
+}
+
+.land-about h2{
+
+font-size:34px;
+
+}
+
+.land-card-content{
+
+padding:24px;
+
+}
+
+.land-card-content h3{
+
+font-size:24px;
+
+}
+
+.notice-box{
+
+padding:30px 20px;
+
+}
+
+.notice-box h2{
+
+font-size:28px;
+
+}
+
+.land-contact-box h2{
+
+font-size:30px;
+
+}
+
+.land-btn{
+
+width:100%;
+justify-content:center;
+
+}
+
+}
+.land-card-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:25px;
+    padding:12px 22px;
+    background:#d6b25e;
+    color:#07110b;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:700;
+    border:1px solid #d6b25e;
+    transition:.35s ease;
+}
+
+.land-card-btn:hover{
+    background:transparent;
+    color:#d6b25e;
+}
