@@ -72,7 +72,7 @@ function Compliance() {
 
             <h1>
               Compliance-led,
-              <span> responsible by design.</span>
+              <span>responsibly designed.</span>
             </h1>
 
             <p>
@@ -190,7 +190,7 @@ function Compliance() {
 
             <div className="partnership-content">
               <p className="compliance-label">For Qualified Partners</p>
-              <h2>Clear communication. Proper process. Professional coordination.</h2>
+              <h2>Clear communication - Professional coordination.</h2>
 
               <p>
                 DGMA welcomes enquiries from legitimate organisations seeking
