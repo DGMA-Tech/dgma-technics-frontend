@@ -62,7 +62,7 @@ function Home() {
             <p className="hero-description">
               DGMA Technics Limited provides global representation,
               coordination, and business development support across all segments
-              of the armed forces, including land, air, and naval defence, as
+              of the armed forces, including land, air, and sea defence, as
               well as the engineering and technology sectors.
             </p>
 
@@ -143,7 +143,7 @@ function Home() {
               <p className="section-label">Official Representation Focus</p>
               <h2>
                 Global Representative of the Defence Export Promotion
-                Organisation (DEPO), an Organisation of the Ministry of Defence,
+                Organisation (DEPO) - Ministry of Defence,
                 Pakistan
               </h2>
 
