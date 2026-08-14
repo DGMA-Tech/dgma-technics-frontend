@@ -108,8 +108,7 @@ function About() {
             <div className="representation-content">
               <p className="about-section-label">Representation Focus</p>
               <h2>
-                Globally representing Defence Export Promotion Organisation DEPO
-                capability.
+                Globally representing Defence Export Promotion Organisation DEPO.
               </h2>
 
               <p>
