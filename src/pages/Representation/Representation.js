@@ -57,7 +57,7 @@ function Representation() {
 
             <h1>
               Globally representing
-              <span> DEPO capability.</span>
+              <span> Defence Export Promotion Organisation (DEPO).</span>
             </h1>
 
             <p>
