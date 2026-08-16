@@ -1,4 +1,4 @@
-import logo from "../../../assets/dgma-logo.jpg";
+
 
 const electronicsProducts = [
   {
