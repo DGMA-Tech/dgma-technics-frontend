@@ -1,15 +1,9 @@
-import smallArms from "../../../assets/dgma-logo.jpg";
-import rockets from "../../../assets/dgma-logo.jpg";
-import tanks from "../../../assets/dgma-logo.jpg";
-import launchers from "../../../assets/dgma-logo.jpg";
-import airDefence from "../../../assets/dgma-logo.jpg";
-import ammunition from "../../../assets/dgma-logo.jpg";
 
 const landProducts = [
   {
     id: "01",
     title: "Small Arms & Personal Weapons",
-    image: smallArms,
+    image: "/Small Arms & Personal Weapons.jpg",
     description:
       "Modern personal weapon systems for military, law enforcement and authorised security organisations.",
     products: [
@@ -24,7 +18,7 @@ const landProducts = [
   {
     id: "02",
     title: "Rocket Systems",
-    image: rockets,
+    image: "/Rocket Systems.jpg",
     description:
       "Advanced rocket systems developed for tactical battlefield operations.",
     products: [
@@ -38,7 +32,7 @@ const landProducts = [
   {
     id: "03",
     title: "Tanks & Armoured Vehicles",
-    image: tanks,
+    image: "/Tanks & Armoured Vehicles.jpg",
     description:
       "Modern armoured combat platforms providing mobility, protection and operational capability.",
     products: [
@@ -52,7 +46,7 @@ const landProducts = [
   {
     id: "04",
     title: "Launcher Systems",
-    image: launchers,
+    image: "/Launcher Systems.jpg",
     description:
       "Ground-based launcher systems supporting modern defence operations.",
     products: [
@@ -66,7 +60,7 @@ const landProducts = [
   {
     id: "05",
     title: "Air Defence Systems",
-    image: airDefence,
+    image: "/Air Defence Systems.jpg",
     description:
       "Integrated solutions protecting against aerial threats across multiple operational environments.",
     products: [
@@ -80,7 +74,7 @@ const landProducts = [
   {
     id: "06",
     title: "Ammunition & Munitions",
-    image: ammunition,
+    image: "/Ammunition & Munitions.jpg",
     description:
       "Comprehensive ammunition solutions supporting a wide range of defence platforms.",
     products: [
