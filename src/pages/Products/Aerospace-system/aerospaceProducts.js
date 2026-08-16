@@ -1,10 +1,9 @@
-import logo from "../../../assets/dgma-logo.jpg";
 
 const aerospaceProducts = [
   {
     id: "01",
     title: "Military Aircraft",
-    image: logo,
+    image: "/Military Aircraft.jpg",
     description:
       "Advanced military aircraft designed for combat, transport, surveillance and specialised defence missions.",
     products: [
@@ -20,7 +19,7 @@ const aerospaceProducts = [
   {
     id: "02",
     title: "Unmanned Aerial Systems",
-    image: logo,
+    image: "/Unmanned Aerial Systems.jpg",
     description:
       "Modern unmanned aerial platforms supporting intelligence, surveillance and tactical operations.",
     products: [
@@ -35,7 +34,7 @@ const aerospaceProducts = [
   {
     id: "03",
     title: "Airborne Weapon Systems",
-    image: logo,
+    image: "/Airborne Weapon Systems.jpg",
     description:
       "Precision airborne weapon technologies supporting modern air operations.",
     products: [
@@ -50,7 +49,7 @@ const aerospaceProducts = [
   {
     id: "04",
     title: "Avionics & Electronics",
-    image: logo,
+    image: "/Avionics & Electronics.jpg",
     description:
       "Integrated avionics systems improving aircraft performance, navigation and mission effectiveness.",
     products: [
@@ -65,7 +64,7 @@ const aerospaceProducts = [
   {
     id: "05",
     title: "Aircraft Maintenance",
-    image: logo,
+    image: "/Aircraft Maintenance.jpg",
     description:
       "Engineering solutions supporting aircraft maintenance, upgrades and operational readiness.",
     products: [
@@ -80,7 +79,7 @@ const aerospaceProducts = [
   {
     id: "06",
     title: "Ground Support Equipment",
-    image: logo,
+    image: "/Ground Support Equipment.jpg",
     description:
       "Ground support technologies enabling safe and efficient aircraft operations.",
     products: [
