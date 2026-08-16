@@ -4,7 +4,7 @@ const heavyMachineryProducts = [
   {
     id: "01",
     title: "Construction Equipment",
-    image: logo,
+    image: "/construction equipment.jpg",
     description:
       "Heavy-duty construction machinery designed for infrastructure, defence engineering and large-scale civil projects.",
     products: [
@@ -20,7 +20,7 @@ const heavyMachineryProducts = [
   {
     id: "02",
     title: "Earth Moving Equipment",
-    image: logo,
+    image: "/Earth Moving Equipment.jpg",
     description:
       "Reliable earth moving machinery for demanding construction and engineering operations.",
     products: [
@@ -36,7 +36,7 @@ const heavyMachineryProducts = [
   {
     id: "03",
     title: "Material Handling Equipment",
-    image: logo,
+    image: "/Material Handling Equipment.jpg",
     description:
       "Industrial equipment designed for lifting, transporting and handling heavy materials safely and efficiently.",
     products: [
@@ -51,7 +51,7 @@ const heavyMachineryProducts = [
   {
     id: "04",
     title: "Lifting Equipment",
-    image: logo,
+    image: "/Lifting Equipment.jpg",
     description:
       "Heavy lifting solutions supporting industrial, military and infrastructure projects.",
     products: [
@@ -66,7 +66,7 @@ const heavyMachineryProducts = [
   {
     id: "05",
     title: "Mining & Industrial Machinery",
-    image: logo,
+    image: "/Mining & Industrial Machinery.jpg",
     description:
       "Heavy industrial machinery developed for mining, quarrying and large-scale industrial applications.",
     products: [
@@ -81,7 +81,7 @@ const heavyMachineryProducts = [
   {
     id: "06",
     title: "Support & Engineering Equipment",
-    image: logo,
+    image: "/Support & Engineering Equipment.jpg",
     description:
       "Engineering support equipment providing reliable operation across construction and defence infrastructure projects.",
     products: [
