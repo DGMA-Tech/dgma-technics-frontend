@@ -1,15 +1,9 @@
-import combatVessels from "../../../assets/dgma-logo.jpg";
-import weaponSystems from "../../../assets/dgma-logo.jpg";
-import sensors from "../../../assets/dgma-logo.jpg";
-import communications from "../../../assets/dgma-logo.jpg";
-import supportSystems from "../../../assets/dgma-logo.jpg";
-import ammunition from "../../../assets/dgma-logo.jpg";
 
 const navalProducts = [
   {
     id: "01",
     title: "Naval Combat Vessels",
-    image: combatVessels,
+    image: "/Naval Combat Vessels.jpg",
     description:
       "Advanced naval platforms designed for coastal defence, maritime security and modern naval operations.",
     products: [
@@ -25,7 +19,7 @@ const navalProducts = [
   {
     id: "02",
     title: "Naval Weapon Systems",
-    image: weaponSystems,
+    image: "/Naval Weapon Systems.jpg",
     description:
       "Integrated naval weapon systems providing precision, firepower and operational superiority.",
     products: [
@@ -40,7 +34,7 @@ const navalProducts = [
   {
     id: "03",
     title: "Naval Electronics & Sensors",
-    image: sensors,
+    image: "/Naval Electronics & Sensors.jpg",
     description:
       "Advanced surveillance and navigation systems supporting modern maritime missions.",
     products: [
@@ -55,7 +49,7 @@ const navalProducts = [
   {
     id: "04",
     title: "Maritime Communication Systems",
-    image: communications,
+    image: "/Maritime Communication Systems.jpg",
     description:
       "Reliable communication technologies enabling secure coordination during naval operations.",
     products: [
@@ -70,7 +64,7 @@ const navalProducts = [
   {
     id: "05",
     title: "Shipboard Support Systems",
-    image: supportSystems,
+    image: "/Shipboard Support Systems.jpg",
     description:
       "Essential engineering systems ensuring reliable performance of naval platforms.",
     products: [
@@ -85,7 +79,7 @@ const navalProducts = [
   {
     id: "06",
     title: "Naval Ammunition & Defence Equipment",
-    image: ammunition,
+    image: "/Naval Ammunition & Defence Equipment.jpg",
     description:
       "Mission-ready ammunition and defence equipment supporting maritime operations.",
     products: [
