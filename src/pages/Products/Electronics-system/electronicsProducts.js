@@ -4,7 +4,7 @@ const electronicsProducts = [
   {
     id: "01",
     title: "Communication Systems",
-    image: logo,
+    image: "/Communication Systems.jpg",
     description:
       "Advanced communication technologies enabling secure and reliable military communications across operational environments.",
     products: [
@@ -20,7 +20,7 @@ const electronicsProducts = [
   {
     id: "02",
     title: "Electronic Warfare Systems",
-    image: logo,
+    image: "/Electronic Warfare Systems.jpg",
     description:
       "Modern electronic warfare capabilities supporting protection, surveillance and operational superiority.",
     products: [
@@ -35,7 +35,7 @@ const electronicsProducts = [
   {
     id: "03",
     title: "Radar & Surveillance Systems",
-    image: logo,
+    image: "/Radar & Surveillance Systems.jpg",
     description:
       "Integrated radar and surveillance technologies providing enhanced situational awareness.",
     products: [
@@ -50,7 +50,7 @@ const electronicsProducts = [
   {
     id: "04",
     title: "Command & Control Systems",
-    image: logo,
+    image: "/Command & Control Systems.jpg",
     description:
       "Command and control solutions designed for operational coordination and mission management.",
     products: [
@@ -65,7 +65,7 @@ const electronicsProducts = [
   {
     id: "05",
     title: "Electro-Optical Systems",
-    image: logo,
+    image: "/Electro-Optical Systems.jpg",
     description:
       "High-performance electro-optical technologies supporting observation, targeting and reconnaissance.",
     products: [
@@ -80,7 +80,7 @@ const electronicsProducts = [
   {
     id: "06",
     title: "Cyber & Information Security",
-    image: logo,
+    image: "/Cyber & Information Security.jpg",
     description:
       "Modern cyber security solutions protecting critical defence communication and information systems.",
     products: [
