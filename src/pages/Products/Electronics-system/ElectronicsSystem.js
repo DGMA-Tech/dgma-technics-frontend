@@ -27,7 +27,11 @@ function ElectronicsSystems() {
             <span className="land-tag">ELECTRONICS & COMMUNICATION CAPABILITY</span>
 
             <h1>
+<<<<<<< HEAD
               Electronics &<span> Communication System</span>
+=======
+              Electronics &<span> Communication Systems</span>
+>>>>>>> 082dfcaa2130116482d05ff7bf7a160b63b17956
             </h1>
 
             <p>
