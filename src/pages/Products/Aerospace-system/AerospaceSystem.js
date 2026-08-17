@@ -27,7 +27,7 @@ function AerospaceSystems() {
             <span className="land-tag">AEROSPACE & AVIATION CAPABILITY</span>
 
             <h1>
-              AEROSPACE &<span> AVIATION SYSTEMS</span>
+              Aerospace &<span> Aviation Systems</span>
             </h1>
 
             <p>
