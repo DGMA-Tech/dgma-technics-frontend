@@ -27,7 +27,7 @@ function HeavyMachinery() {
             <span className="land-tag">HEAVY MACHINERY CAPABILITY</span>
 
             <h1>
-              HEAVY MACHINERY &<span> SUPPORT EQUIPMENT</span>
+              Heavy Machinery &<span> Support Equipment</span>
             </h1>
 
             <p>
