@@ -136,6 +136,8 @@ function Home() {
         <section className="depo-section">
           <div className="home-container depo-grid">
             
+            <div className="depo-mark">
+            </div>
 
             <div className="depo-content">
               <p className="section-label">Official Representation Focus</p>
