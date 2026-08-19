@@ -91,6 +91,11 @@ function Home() {
                 <strong>Compliance</strong>
                 <span>Focused Engagement</span>
               </div>
+
+              <div>
+                <strong>Regional Representative</strong>
+                <span>Muhammad Naeem Tiwana (Gulf)</span>
+              </div>
             </div>
           </div>
 
