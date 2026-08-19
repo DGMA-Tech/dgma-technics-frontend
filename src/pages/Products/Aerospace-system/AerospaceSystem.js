@@ -21,10 +21,10 @@ function AerospaceSystems() {
               <span>/</span>
               <Link to="/products">Capabilities</Link>
               <span>/</span>
-              Aerospace & Aviation Capabilities
+              AEROSPACE & AVIATION CAPABILITY
             </p>
 
-            <span Aerospace & Aviation Capabilities</span>
+            <span className="land-tag">AEROSPACE & AVIATION CAPABILITY</span>
 
             <h1>
               Aerospace &<span> Aviation Systems</span>
