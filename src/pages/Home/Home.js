@@ -137,12 +137,13 @@ function Home() {
           <div className="home-container depo-grid">
             
             <div className="depo-mark">
+              
             </div>
 
             <div className="depo-content">
               <p className="section-label">Official Representation Focus</p>
               <h2>
-                Global Representative of the Defence Export Promotion
+                Global Representative of Defence Export Promotion
                 Organisation (DEPO) - Ministry of Defence,
                 Pakistan
               </h2>
