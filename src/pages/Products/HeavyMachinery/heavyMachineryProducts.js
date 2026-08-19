@@ -3,7 +3,7 @@ const heavyMachineryProducts = [
   {
     id: "01",
     title: "Construction Equipment",
-    image: "/construction equipment.jpg",
+    image: "/Construction Equipment.jpg",
     description:
       "Heavy-duty construction machinery designed for infrastructure, defence engineering and large-scale civil projects.",
     products: [
