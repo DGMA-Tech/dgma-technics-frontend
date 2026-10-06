@@ -91,6 +91,11 @@ function Home() {
                 <strong>Compliance</strong>
                 <span>Focused Engagement</span>
               </div>
+
+              <div>
+                <strong>Regional Representative</strong>
+                <span>Muhammad Naeem Tiwana (Gulf)</span>
+              </div>
             </div>
           </div>
 
@@ -136,11 +141,14 @@ function Home() {
         <section className="depo-section">
           <div className="home-container depo-grid">
             
+            <div className="depo-mark">
+              
+            </div>
 
             <div className="depo-content">
               <p className="section-label">Official Representation Focus</p>
               <h2>
-                Global Representative of the Defence Export Promotion
+                Global Representative of Defence Export Promotion
                 Organisation (DEPO) - Ministry of Defence,
                 Pakistan
               </h2>
