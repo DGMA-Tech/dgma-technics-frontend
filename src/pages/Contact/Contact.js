@@ -13,254 +13,167 @@ import Layout from "../../components/Layout/Layout";
 function Contact() {
   return (
     <Layout>
-    <div className="contact-page">
+      <div className="contact-page">
+        {/* Hero */}
 
-      {/* Hero */}
+        <section className="contact-hero">
+          <div className="hero-overlay"></div>
 
-      <section className="contact-hero">
+          <div className="hero-content">
+            <h1>Let's Start a Conversation</h1>
 
-        <div className="hero-overlay"></div>
+            <p>Professional Defence Enquiries Only</p>
 
-        <div className="hero-content">
+            <a href="#enquiry" className="hero-btn">
+              Submit Secure Enquiry
+            </a>
+          </div>
+        </section>
 
-          <h1>Let's Start a Conversation</h1>
+        {/* Contact Cards */}
 
-          <p>
-            Professional Defence Enquiries Only
-          </p>
+        <section className="contact-info container">
+          <div className="info-card">
+            <FaMapMarkerAlt />
+            <h3>Office Location</h3>
+            <p>Suite 2, 239 High Road,
+               Ilford, IG1 1NE, United Kingdom</p>
+          </div>
 
-          <a href="#enquiry" className="hero-btn">
-            Submit Secure Enquiry
-          </a>
+          <div className="info-card">
+            <FaEnvelope />
+            <h3>Email</h3>
+            <p>info@dgmatechnics.com</p>
+          </div>
 
-        </div>
+          <div className="info-card">
+            <FaPhoneAlt />
+            <h3>Phone</h3>
+            <p>+44 7711 044083</p>
+          </div>
 
-      </section>
+          <div className="info-card">
+            <FaClock />
+            <h3>Business Hours</h3>
+            <p>Monday - Friday</p>
+            <span>09:00 - 17:00</span>
+          </div>
+        </section>
 
-      {/* Contact Cards */}
+        {/* Form */}
 
-      <section className="contact-info container">
+        <section className="contact-form-section container" id="enquiry">
+          <div className="form-heading">
+            <h2>Secure Enquiry Form</h2>
 
-        <div className="info-card">
-          <FaMapMarkerAlt />
-          <h3>Office Location</h3>
-          <p>United Kingdom</p>
-        </div>
+            <p>All enquiries are reviewed by our professional team.</p>
+          </div>
 
-        <div className="info-card">
-          <FaEnvelope />
-          <h3>Email</h3>
-          <p>info@dgmatechnics.com</p>
-        </div>
+          <form className="contact-form">
+            <input type="text" placeholder="Company Name *" />
 
-        <div className="info-card">
-          <FaPhoneAlt />
-          <h3>Phone</h3>
-          <p>+44 XXXX XXXX</p>
-        </div>
+            <input type="text" placeholder="Contact Person *" />
 
-        <div className="info-card">
-          <FaClock />
-          <h3>Business Hours</h3>
-          <p>Monday - Friday</p>
-          <span>09:00 - 17:00</span>
-        </div>
+            <input type="email" placeholder="Email Address *" />
 
-      </section>
+            <input type="text" placeholder="Phone Number" />
 
-      {/* Form */}
+            <input type="text" placeholder="Country" />
 
-      <section
-        className="contact-form-section container"
-        id="enquiry"
-      >
+            <select>
+              <option>Organisation Type</option>
 
-        <div className="form-heading">
+              <option>Government</option>
 
-          <h2>Secure Enquiry Form</h2>
+              <option>Defence Organisation</option>
 
-          <p>
-            All enquiries are reviewed by our professional team.
-          </p>
+              <option>Military</option>
 
-        </div>
+              <option>Manufacturer</option>
 
-        <form className="contact-form">
+              <option>Commercial Company</option>
 
-          <input
-            type="text"
-            placeholder="Company Name *"
-          />
+              <option>Research Institution</option>
 
-          <input
-            type="text"
-            placeholder="Contact Person *"
-          />
+              <option>Other</option>
+            </select>
 
-          <input
-            type="email"
-            placeholder="Email Address *"
-          />
+            <select>
+              <option>Capability Interest</option>
 
-          <input
-            type="text"
-            placeholder="Phone Number"
-          />
+              <option>Land Systems</option>
 
-          <input
-            type="text"
-            placeholder="Country"
-          />
+              <option>Aerospace & Aviation</option>
 
-          <select>
+              <option>Naval & Maritime</option>
 
-            <option>
-              Organisation Type
-            </option>
+              <option>Electronics & Communications</option>
 
-            <option>
-              Government
-            </option>
+              <option>General Enquiry</option>
+            </select>
 
-            <option>
-              Defence Organisation
-            </option>
+            <input type="text" placeholder="Subject" />
 
-            <option>
-              Military
-            </option>
-
-            <option>
-              Manufacturer
-            </option>
-
-            <option>
-              Commercial Company
-            </option>
-
-            <option>
-              Research Institution
-            </option>
-
-            <option>
-              Other
-            </option>
-
-          </select>
-
-          <select>
-
-            <option>
-              Capability Interest
-            </option>
-
-            <option>
-              Land Systems
-            </option>
-
-            <option>
-              Aerospace & Aviation
-            </option>
-
-            <option>
-              Naval & Maritime
-            </option>
-
-            <option>
-              Electronics & Communications
-            </option>
-
-            <option>
-              General Enquiry
-            </option>
-
-          </select>
-
-          <input
-            type="text"
-            placeholder="Subject"
-          />
-
-          <textarea
-            rows="7"
-            placeholder="Please provide a brief overview of your organisation and your enquiry."
-          ></textarea>
-
-          <button>
-
-            <FaPaperPlane />
-
-            Submit Secure Enquiry
-
-          </button>
-
-        </form>
-
-      </section>
-
-      {/* Regions */}
-
-      <section className="regions">
-
-        <h2>Global Business Regions</h2>
-
-        <div className="regions-grid">
-
-          <span>Europe</span>
-
-          <span>Middle East</span>
-
-          <span>Asia</span>
-
-          <span>Africa</span>
-
-        </div>
-
-      </section>
-
-      {/* Notice */}
-
-      <section className="notice container">
-
-        <FaShieldAlt className="shield"/>
-
-        <div>
-
-          <h3>Professional Enquiries</h3>
-
-          <p>
-
-            DGMA Technics Limited welcomes enquiries from government
-            organisations, defence manufacturers and qualified commercial
-            partners.
-
-          </p>
-
-          <p>
-
-            Detailed technical information, commercial proposals and
-            controlled documentation are provided only through the
-            appropriate review process.
-
-          </p>
-
-        </div>
-
-      </section>
-
-      {/* Map */}
-
-      <section className="map">
-
-        <iframe
-          title="Google Map"
-          src="https://www.google.com/maps/embed?pb="
-          loading="lazy"
-        ></iframe>
-
-      </section>
-
-    </div>
+            <textarea
+              rows="7"
+              placeholder="Please provide a brief overview of your organisation and your enquiry."
+            ></textarea>
+
+            <button>
+              <FaPaperPlane />
+              Submit Secure Enquiry
+            </button>
+          </form>
+        </section>
+
+        {/* Regions */}
+
+        <section className="regions">
+          <h2>Global Business Regions</h2>
+
+          <div className="regions-grid">
+            <span>Europe</span>
+
+            <span>Middle East</span>
+
+            <span>Asia</span>
+
+            <span>Africa</span>
+          </div>
+        </section>
+
+        {/* Notice */}
+
+        <section className="notice container">
+          <FaShieldAlt className="shield" />
+
+          <div>
+            <h3>Professional Enquiries</h3>
+
+            <p>
+              DGMA Technics Limited welcomes enquiries from government
+              organisations, defence manufacturers and qualified commercial
+              partners.
+            </p>
+
+            <p>
+              Detailed technical information, commercial proposals and
+              controlled documentation are provided only through the appropriate
+              review process.
+            </p>
+          </div>
+        </section>
+
+        {/* Map */}
+
+        <section className="map">
+          <iframe
+            title="Google Map"
+            src="https://www.google.com/maps/embed?pb="
+            loading="lazy"
+          ></iframe>
+        </section>
+      </div>
     </Layout>
   );
 }
